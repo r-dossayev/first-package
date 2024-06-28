@@ -1,23 +1,22 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "r-dossayev/first-package",
     "type": "library",
     "description": ":package_description",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "first",
+        "package"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/r-dossayev/first-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "r-dossayev",
+            "homepage": "https://github.com/r-dossayev",
             "role": "Developer"
         }
     ],
     "require": {
-        "php" : "~7.2"
+        "php" : ">=8.0"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=8.0",
@@ -25,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "dossayev\\FPackage\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "dossayev\\FPackage\\": "tests"
         }
     },
     "scripts": {

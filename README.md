@@ -32,7 +32,7 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require r-dossayev/first-package
 ```
 
 ## Usage
